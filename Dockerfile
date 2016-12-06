@@ -4,7 +4,7 @@
 # this uses the jboss/teiid steps but leaves out the VOLUME command.
 #
 FROM jboss/wildfly:10.0.0.Final
-MAINTAINER Paul Richardson <p.g.richardson@phantomjinx.co.uk>
+MAINTAINER Teiid-Komodo Community <http://teiiddesigner.jboss.org>
 
 # Env variables
 ENV VDB_BENCH_RELEASE_DIRECTORY "0.1-SNAPSHOT"
